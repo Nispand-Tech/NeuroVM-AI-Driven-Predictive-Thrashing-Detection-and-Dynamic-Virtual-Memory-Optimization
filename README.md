@@ -44,6 +44,15 @@ Traditional operating systems detect thrashing only after performance drops. Thi
 
 ##  How to Run
 
+### Step 0: Clone Project
+
+```bash
+git clone https://github.com/Nispand-Tech/NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization.git
+cd NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization
+
+
+
+
 ### Step 1: Backend
 
 ```bash
