@@ -10,7 +10,7 @@ from optimizer import MemoryOptimizer
 app = FastAPI(title="NeuroVM Backend")
 
 # =========================
-# ✅ CORS FIX (ROBUST)
+#  CORS FIX (ROBUST)
 # =========================
 # This ensures React (Port 5173/5174) can always talk to FastAPI
 app.add_middleware(
