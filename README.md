@@ -1,6 +1,5 @@
 # NeuroVM: AI-Based Thrashing Detection and Optimization in Virtual Memory
-![Project Screenshot](.output_gui).png)
-
+![Output GUI](./output_gui.png)
 ##  Overview
 
 NeuroVM is an AI-powered virtual memory management system that predicts and prevents thrashing using Machine Learning techniques.
