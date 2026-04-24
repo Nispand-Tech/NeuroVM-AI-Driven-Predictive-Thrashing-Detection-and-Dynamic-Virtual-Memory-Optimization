@@ -8,7 +8,7 @@ Traditional operating systems detect thrashing only after performance drops. Thi
 
 ---
 
-## Features
+##  Features
 
 * Virtual Memory Simulation (LRU)
 * AI-based Thrashing Prediction
@@ -18,14 +18,16 @@ Traditional operating systems detect thrashing only after performance drops. Thi
 
 ---
 
-##  Machine Learning Used
+## Machine Learning Used
 
 * Model: Random Forest Classifier
+
 * Features:
 
   * Page Fault Rate
   * CPU Utilization
   * Working Set Size
+
 * Output:
 
   * NORMAL
@@ -44,13 +46,14 @@ Traditional operating systems detect thrashing only after performance drops. Thi
 
 ##  How to Run
 
-### Step 0: Clone Project
+### **Step 0: Clone Project**
 
 ```bash
 git clone https://github.com/Nispand-Tech/NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization.git
 cd NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization
+```
 
-
+---
 
 ### **Step 1: Backend**
 
@@ -60,7 +63,9 @@ pip install -r requirements.txt
 python -m uvicorn app:app --reload
 ```
 
-### Step 2: Frontend
+---
+
+### **Step 2: Frontend**
 
 ```bash
 cd frontend
@@ -72,8 +77,11 @@ npm run dev
 
 ##  Access
 
-* Backend API Docs: http://127.0.0.1:8000/docs
-* Frontend Dashboard: http://localhost:5173  (or port shown in terminal)
+* Backend API Docs:
+  http://127.0.0.1:8000/docs
+
+* Frontend Dashboard:
+  http://localhost:5173 *(or port shown in terminal)*
 
 ---
 
@@ -87,11 +95,15 @@ npm run dev
 ---
 
 ##  Conclusion
-
 NeuroVM transforms virtual memory management into a predictive system using AI. It prevents performance degradation and improves efficiency compared to traditional algorithms.
 
 ---
 
 ##  Author
 
-Nispand
+**Nispand**
+Department of Computer Science
+Chandigarh College of Engineering and Technology
+
+GitHub:
+https://github.com/Nispand-Tech/NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization
