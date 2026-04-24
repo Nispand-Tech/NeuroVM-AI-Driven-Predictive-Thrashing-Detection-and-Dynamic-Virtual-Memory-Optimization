@@ -1,4 +1,4 @@
-# NeuroVM: AI-Based Thrashing Detection and Optimization
+# NeuroVM: AI-Based Thrashing Detection and Optimization in Virtual Memory
 
 ##  Overview
 
