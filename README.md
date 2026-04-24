@@ -52,8 +52,7 @@ cd NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-O
 
 
 
-
-### Step 1: Backend
+### **Step 1: Backend**
 
 ```bash
 cd backend
