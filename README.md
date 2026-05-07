@@ -45,9 +45,10 @@ The dashboard will start executing step by step.
 ---
 ## OUTPUTS
 
-![Graph](assets/GRAPH.png)
 
 ![GUI](assets/GUI.png)
+![Graph](assets/GRAPH.png)
+
 
 ![Memory Heatmap](assets/MEMORYHEATMAP.png)
 
