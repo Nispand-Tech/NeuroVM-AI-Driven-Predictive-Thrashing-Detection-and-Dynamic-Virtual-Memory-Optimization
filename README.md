@@ -10,6 +10,40 @@ It combines concepts from operating systems, machine learning, and real-time sys
 
 ---
 
+## How to Run
+
+### Step 1: Install Required Libraries
+
+Open terminal or command prompt in your project folder and run:
+
+pip install -r requirements.txt
+
+---
+
+### Step 2: Open Jupyter Notebook
+
+Run the following command:
+
+jupyter notebook
+
+This will open a browser window.
+
+---
+
+### Step 3: Run the Project
+
+Open the file:
+
+NeuroVM.ipynb
+
+Then click:
+
+Run → Run All Cells
+
+The dashboard will start executing step by step.
+
+---
+
 ## Objective
 
 The objective of this project is to:
@@ -24,11 +58,9 @@ The objective of this project is to:
 
 ## System Architecture
 
-The system consists of the following components:
-
 1. Memory Simulator
    - Simulates page requests
-   - Implements page replacement algorithms such as LRU, FIFO, and RANDOM
+   - Implements page replacement algorithms (LRU, FIFO, RANDOM)
 
 2. Feature Extraction
    - Page fault rate
@@ -36,16 +68,20 @@ The system consists of the following components:
    - Working set size
 
 3. AI Prediction Engine
-   - Uses Random Forest Classifier
-   - Classifies system state into NORMAL, WARNING, or SEVERE THRASHING
+   - Random Forest Classifier
+   - Classifies system state into:
+     - NORMAL
+     - WARNING
+     - SEVERE THRASHING
 
 4. Optimization Engine
-   - Adjusts memory frames dynamically based on AI prediction
+   - Adjusts memory frames dynamically
    - Prevents system instability
 
 5. Visualization Layer
-   - Real-time dashboard
-   - Graphs and heatmaps
+   - Live dashboard
+   - Performance graphs
+   - Heatmaps
    - System logs
 
 ---
@@ -54,21 +90,15 @@ The system consists of the following components:
 
 A Random Forest Classifier is trained using synthetic operating system data.
 
-Input features:
+### Input Features:
 - Page fault rate
 - CPU utilization
 - Working set size
 
-Output classes:
-- 0: NORMAL
-- 1: WARNING
-- 2: SEVERE THRASHING
-
----
-
-## Workflow
-
-Page Request → Memory Simulator → Feature Calculation → AI Prediction → Optimization Engine → Algorithm Switching → Dashboard Update
+### Output Classes:
+- 0 → NORMAL
+- 1 → WARNING
+- 2 → SEVERE THRASHING
 
 ---
 
@@ -77,23 +107,10 @@ Page Request → Memory Simulator → Feature Calculation → AI Prediction → 
 - Real-time memory simulation
 - AI-based thrashing prediction
 - Dynamic memory optimization
-- Automatic algorithm switching (LRU, FIFO)
+- Algorithm switching (LRU / FIFO)
 - CPU and RAM monitoring
-- Memory pressure analysis
-- Performance graphs and heatmaps
-- Terminal-style system logs
-
----
-
-## Visual Components
-
-- CPU usage monitor
-- RAM usage monitor
-- System health indicator
-- AI risk prediction panel
-- Memory block visualization
+- Memory pressure visualization
 - Performance graphs
-- Heatmap visualization
 - AI terminal logs
 
 ---
@@ -112,53 +129,9 @@ Page Request → Memory Simulator → Feature Calculation → AI Prediction → 
 
 ---
 
-## How to Run
+## Workflow
 
-Step 1: Install dependencies
-
-pip install -r requirements.txt
-
-Step 2: Open Jupyter Notebook
-
-jupyter notebook
-
-Step 3: Run the project
-
-Open NeuroVM.ipynb and execute all cells
-
----
-
-## requirements.txt
-
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-plotly
-psutil
-ipython
-
----
-
-## Project Highlights
-
-- Real operating system memory simulation
-- AI-based predictive system behavior analysis
-- Dynamic resource optimization
-- Real-time visualization dashboard
-- Integration of OS concepts with machine learning
-
----
-
-## Real World Applications
-
-This project is relevant to:
-
-- Operating system design
-- Cloud resource management
-- System performance optimization
-- AI-based infrastructure monitoring
+Page Request → Memory Simulator → Feature Extraction → AI Prediction → Optimization Engine → Algorithm Switching → Dashboard Update
 
 ---
 
@@ -166,10 +139,10 @@ This project is relevant to:
 
 NeuroVM demonstrates how artificial intelligence can enhance operating system design by predicting system failures and optimizing memory management dynamically.
 
-It provides a simulation of an intelligent operating system capable of adapting its behavior based on system load conditions.
+It simulates a smart operating system capable of adapting to workload conditions in real time.
 
 ---
 
 ## Author
 
-NeuroVM AI Project
+Nispand
