@@ -43,6 +43,13 @@ Run → Run All Cells
 The dashboard will start executing step by step.
 
 ---
+## Screenshots
+
+![Graph](assets/GRAPH.png)
+
+![GUI](assets/GUI.png)
+
+![Memory Heatmap](assets/MEMORYHEATMAP.png)
 
 ## Objective
 
