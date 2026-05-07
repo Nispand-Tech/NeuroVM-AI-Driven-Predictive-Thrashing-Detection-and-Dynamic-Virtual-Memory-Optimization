@@ -43,7 +43,7 @@ Run → Run All Cells
 The dashboard will start executing step by step.
 
 ---
-## Screenshots
+## OUTPUTS
 
 ![Graph](assets/GRAPH.png)
 
