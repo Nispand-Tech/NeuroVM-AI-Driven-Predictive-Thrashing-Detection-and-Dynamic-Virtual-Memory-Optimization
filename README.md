@@ -11,29 +11,62 @@ It combines concepts from operating systems, machine learning, and real-time sys
 ---
 
 ## How to Run
-Step 1: Clone the Repository
+
+## How to Run
+
+### Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/Nispand-Tech/NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization.git
 cd NeuroVM-AI-Driven-Predictive-Thrashing-Detection-and-Dynamic-Virtual-Memory-Optimization
-Step 2: Install Required Libraries
+```
+
+---
+
+### Step 2: Install Required Libraries
+
+```bash
 pip install -r requirements.txt
+```
 
-(Optional: if pip is outdated)
+(Optional: If pip is outdated)
 
+```bash
 python -m pip install --upgrade pip
-Step 3: Open Jupyter Notebook
+```
+
+---
+
+### Step 3: Open Jupyter Notebook
 
 Recommended (works on all systems):
 
+```bash
 python -m notebook
+```
 
 OR (if Jupyter is already added to PATH):
 
+```bash
 jupyter notebook
-Step 4: Run the Project
+```
+
+---
+
+### Step 4: Run the Project
+
 Open the file:
+
+```bash
 NEURO_VM.ipynb
+```
+
 Then click:
+
+```bash
 Run → Run All Cells
+```
+
 ## OUTPUTS
 
 
